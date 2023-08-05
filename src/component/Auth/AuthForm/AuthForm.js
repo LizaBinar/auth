@@ -60,10 +60,10 @@ const AuthForm = ({onSubmit}) => {
         e.preventDefault();
         const emailValid = isEmailValid();
         let passwordValid = inputPasswordOpen;
+        passwordValid = passwordValid ? isPasswordValid() : false;
 
         const submitData = async () => {
             if (passwordValid) {
-                passwordValid = isPasswordValid();
                 if (passwordValid) {
                     await onSubmit({email, password});
                 }
