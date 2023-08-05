@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import css from './DynamicContainer.module.css'
 
 const DynamicHeightComponent = ({ className, children }) => {
-    const [contentHeight, setContentHeight] = useState(0);
+    const [contentHeight, setContentHeight] = useState();
     const contentRef = useRef(null);
 
     useEffect(() => {
