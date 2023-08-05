@@ -1,0 +1,5 @@
+.container {
+    transition: var(--fast-animation);
+    height: auto;
+    overflow: hidden;
+}

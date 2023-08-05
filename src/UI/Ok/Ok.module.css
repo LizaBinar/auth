@@ -1,0 +1,21 @@
+.ok {
+    height: 0;
+    width: 40px;
+    transition: var(--slow-animation);
+}
+
+@keyframes moveUp {
+    from {
+        top: 0;
+    }
+    to {
+        top: -200px;
+        opacity: 0;
+    }
+}
+
+.okSVG {
+    z-index: -1;
+    position: relative;
+    animation: moveUp 1s forwards ease;
+}

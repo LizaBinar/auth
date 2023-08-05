@@ -1,0 +1,14 @@
+.btn {
+    border-radius: 16px;
+    border: 2px solid var(--gray);
+    padding: 8px 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn:disabled {
+    color: gray;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+

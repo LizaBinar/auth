@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 30vw;
+    transition: all 1s;
+}
+
+.h1 {
+    position: relative;
+    padding-bottom: 16px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--font-color);
+    font-weight: 700;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.h1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: var(--weak-black);
+    top: 36px;
+    left: 0;
+}
+
+.height220 {
+    height: 220px;
+}
+
+.maxHeight0 {
+    transform: translate(500px);
+}
+
+.ok {
+    position: absolute;
+}
