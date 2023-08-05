@@ -1,5 +1,5 @@
 import Input from "../../../UI/Input/Input";
-import React, {memo} from "react";
+import {memo} from "react";
 
 const PasswordInput = ({password, isLoading, isError, onChange, info}) => {
     return (
