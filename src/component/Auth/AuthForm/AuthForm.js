@@ -16,7 +16,6 @@ const AuthForm = ({onSubmit}) => {
     const [errorObj, setErrorObj] = useState({status: false, general: '', email: '', password: ''});
 
     const isEmailValid = () => {
-        console.log(email)
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (emailRegex.test(email)) {
             setErrorObj((obj) => {
