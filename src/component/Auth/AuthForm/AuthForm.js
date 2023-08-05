@@ -54,7 +54,7 @@ const AuthForm = ({onSubmit}) => {
     const onToggleInputPassword = useCallback(() => {
         setInputPasswordOpen((prevState) => !prevState);
         setErrorObj({status: false, general: '', email: '', password: ''})
-    }, [inputPasswordOpen]);
+    }, []);
 
     const onSubmitForm = async (e) => {
         e.preventDefault();

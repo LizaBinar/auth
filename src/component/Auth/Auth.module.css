@@ -27,14 +27,6 @@
     left: 0;
 }
 
-.height220 {
-    height: 220px;
-}
-
-.maxHeight0 {
-    transform: translate(500px);
-}
-
 .ok {
     position: absolute;
 }
