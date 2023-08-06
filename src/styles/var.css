@@ -8,5 +8,8 @@
     --fast-animation: 0.3s ease;
     --slow-animation: 0.6s ease;
 
+    --small-screen: 376px;
+    --medium-screen: 768px;
+
     --font-family: Arial, sans-serif;
 }
