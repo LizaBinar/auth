@@ -31,13 +31,13 @@
     position: absolute;
 }
 
-@media screen and (min-width: var(--small-screen)) {
+@media screen and (min-width: 376px) {
     .container {
         width: 50vw;
     }
 }
 
-@media screen and (min-width: var(--medium-screen)) {
+@media screen and (min-width: 768px) {
     .container {
         width: 30vw;
     }
