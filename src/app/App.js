@@ -6,7 +6,7 @@ import css from './App.module.css'
 function App() {
   return (
     <main className={css.main}>
-      <Card className={css.card}>
+      <Card>
           <Auth />
       </Card>
     </main>
